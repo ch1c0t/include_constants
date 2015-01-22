@@ -1,4 +1,4 @@
-class Object
+class Module
   def include_constants(*constants, from:)
     constants = from.constants if constants.empty?
     constants.each do |constant|
